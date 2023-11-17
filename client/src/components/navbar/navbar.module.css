@@ -1,0 +1,48 @@
+.searchBox {
+    display: flex;
+    align-items: center;
+    background-color: rgba(90, 173, 173, 0.3);
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 8px;
+    width: 300px; 
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo para el campo de entrada de búsqueda */
+  input[type="search"] {
+    border: none;
+    outline: none;
+    flex: 2; 
+    padding: 10px;
+    background: transparent 
+  }
+  
+  /* Estilo para el botón de búsqueda */
+  button[type="submit"] {
+    background-color: #007bff; 
+    color: #fbfaff; 
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para el botón de búsqueda al pasar el ratón sobre él */
+  button[type="submit"]:hover {
+    background-color: #0056b3; 
+  }
+
+  /* Estilo para el campo de entrada de búsqueda */
+input[type="search"] {
+    border: none;
+    outline: none;
+    flex: 2; /* Expande el campo de entrada para llenar el espacio disponible */
+    padding: 10px;
+    color: #f70000; /* Cambia el color del texto "Busqueda" a lo que desees (#ff0000 es rojo) */
+  }
+
+  /* Estilo para el campo de entrada de búsqueda */
+input[type="search"]::placeholder {
+    color: #0d20f4; /* Cambia el color del texto de marcador de posición "Busqueda" a lo que desees (#ff0000 es rojo) */
+  }

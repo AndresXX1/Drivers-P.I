@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(
+        to left,
+        rgb(77, 106, 184) 0%,
+        rgba(0, 128, 128, 1) 100%
+    );
+    text-align: center;
+}
+
+.homeTitle {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    font-size: 76px;
+    color: rgba(51, 202, 196, 0.8);
+    font-family: "Bigelow Rules";
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://cms-cdn.zaonce.net/styles/max_840w/s3/2023-08/vlt23_launch_screenshots_teams_red_bull_race_2_1920x1080.jpg?itok=pB1bqvMT');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir el área completamente */
+    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-position: center;
+}
+
+
+.selectTeam, .selectTeam1, .selectTeam2 {
+    display: inline-block; /* Muestra los elementos en línea (uno al lado del otro) */
+    margin-right: 10px; /* Espacio a la derecha para separarlos */
+  }
+  
+ 
+  .button {
+    
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+ 
+}

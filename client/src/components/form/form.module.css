@@ -1,0 +1,52 @@
+.formContainer {
+    margin: 50px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    background-image: url('https://depor.com/resizer/7lxLw5UIZelU--e8T93vhtsyv1Q=/580x326/smart/filters:format(jpeg):quality(75)/cdn.jwplayer.com/v2/media/Fdr9JEU2/poster.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .inputField {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  .backButton {
+    background-color: #884242;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-top: 5px
+  }
+
+  .colorLetra {
+    color: rgb(243, 243, 243);
+    border: black;
+
+  }

@@ -1,0 +1,25 @@
+.cardContainer {
+    display: inline-block; /* Para que las tarjetas estén una al lado de la otra */
+    width: 200px; /* Ancho deseado de la tarjeta */
+    max-height: 400px; /* Altura máxima de la tarjeta */
+    margin: 10px; /* Espacio entre las tarjetas */
+    background-color: rgba(112, 221, 221, 0.4);
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px; /* Reducir el espacio interno para hacerla más pequeña */
+    cursor: pointer;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    text-align: center; /* Centrar el contenido */
+    overflow: hidden; /* Oculta el contenido que se desborda de la tarjeta */
+}
+
+.cardContainer img {
+    max-width: 100%; /* Reducir el tamaño de la imagen para que se ajuste a la tarjeta */
+    max-height: 40%; /* Ajustar la altura máxima de la imagen */
+}
+
+.cardContainer:hover {
+    transform: scale(1.05);
+}

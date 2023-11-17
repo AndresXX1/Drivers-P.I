@@ -1,0 +1,10 @@
+.pantalladelForm {
+    background-image: url('https://miro.medium.com/v2/resize:fit:679/1*EhDN1OqYBrFSRP3TkWZAxw.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; /* Utiliza flexbox para centrar verticalmente */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Aprovecha toda la altura de la pantalla */
+}
