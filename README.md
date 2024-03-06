@@ -5,7 +5,7 @@
 * 📁 Soporta la subida y bajada de datos
 * 🪟 Realizada con Node.js, React, Redux, axios, y estilada con css puro y material UI
 
- <img width="1459" alt="スクリーンショット 2023-11-20 2 23 51" src="https://krspace.files.wordpress.com/2019/03/keep-flying-2.gif"> 
+ <img width="1459" alt="スクリーンショット 2023-11-20 2 23 51" src="https://oversteer48.com/wp-content/uploads/2023/05/F1-driver-seating-on-top-of-car.jpg"> 
 
 ## 🌟 Quick Start
 
