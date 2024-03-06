@@ -29,61 +29,13 @@
     $ npm install
     ```
 
-5. 🔑 Cambia las rutas de las actions por tus rutas locales en actions.js
-
-ej:
-de esto..
- ```
- export const deleteUser = (userId) => async (dispatch) => {
-   try {
- 
-     await axios.delete(`https://pf-back-hostel-admin.onrender.com/users/delete/${userId}`);
- 
-     dispatch({
-       type: DELETE_USER_SUCCESS,
-       payload: userId,
-     });
-   } catch (error) {
-     console.error("Error deleting user:", error);
-     dispatch({
-       type: DELETE_USER_FAILURE,
-       payload: error.message || "Failed to delete user",
-     });
-    }
-  };
-
- ```
-a esto
-
- ```
- export const deleteUser = (userId) => async (dispatch) => {
-   try {
- 
-await axios.delete(`http://localhost:3001/users/delete/${userId}`);
- 
-     dispatch({
-       type: DELETE_USER_SUCCESS,
-       payload: userId,
-     });
-   } catch (error) {
-     console.error("Error deleting user:", error);
-     dispatch({
-       type: DELETE_USER_FAILURE,
-       payload: error.message || "Failed to delete user",
-     });
-    }
-  };
-
- ```
 
 
-y asi en cada funcion del archivo actions.js
-
-6. 🏃‍️ Inicia la aplicacion!
+5. 🏃‍️ Inicia la aplicacion!
 
     ```bash
     $ npm run dev
 
     ```
 
-7. recorda actualizar tus variables de entorno antes de iniciar la app
+6. recorda actualizar tus variables de entorno antes de iniciar la app
